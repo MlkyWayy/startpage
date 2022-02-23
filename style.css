@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "imagination";
+  src: url("Font/Imagination_Station.ttf") format("truetype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Shadows+Into+Light&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Shadows Into Light", cursive; */
+  background-image: url("724543.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin-top: 16%;
+}
+
+.jam {
+  font-size: 90px !important;
+  color: white;
+}
+.greetings {
+  font-size: 40px !important;
+  color: white;
+}
+
+ul li a {
+  color: white;
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+  .content {
+    margin-top: 50%;
+  }
+
+  .jam {
+    font-size: 60px !important;
+  }
+
+  .greetings {
+    font-size: 25px !important;
+  }
+
+  .bookmark {
+    margin-top: 90px !important;
+  }
+
+  ul {
+    width: 300px !important;
+  }
+}
